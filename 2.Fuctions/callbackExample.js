@@ -8,10 +8,8 @@ const callbackExample=(arr,callback)=>{
         callback(sum);
     }, 0);
 }
-callbackExample(list,function(result){
 
-        console.log(result);
+callbackExample(list,(result)=>console.log(result));
 
-    }); 
 
     console.log('first');
